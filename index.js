@@ -1,6 +1,6 @@
 function isEven(number) {
     if (typeof number !== 'number') {
-        throw new Error('Input must be a number');
+        throw new Error('Input must be a numbers');
     }
     return number % 2 === 0;
 }
